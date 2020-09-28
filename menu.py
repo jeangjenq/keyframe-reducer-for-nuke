@@ -1,3 +1,3 @@
-import reduceKeyframes14
+import reduceKeyframes
 m = nuke.menu( 'Animation' )
-m.addCommand( 'Reduce Keyframes', "reduceKeyframes14.doReduceKeyframes()" )
+m.addCommand( 'Reduce Keyframes', "reduceKeyframes.doReduceKeyframes()" )
